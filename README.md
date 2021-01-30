@@ -3,7 +3,7 @@ About r-polycub
 
 Home: https://github.com/bastistician/polyCub
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polycub-feedstock/blob/master/LICENSE.txt)
 
