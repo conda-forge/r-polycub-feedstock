@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polyCub_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polyCub/polyCub_{{ version }}.tar.gz
-  sha256: f4cd078d6484d1ba1582e23eed49d9cfe193d015aeb4b7616c10a1f4e38cc3b8
+  sha256: 54467e60915316cbfd2fd630f73dcbf87ee87ab11cd23ef929bed4e492b14425
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
