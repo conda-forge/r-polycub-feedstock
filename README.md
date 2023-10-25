@@ -3,6 +3,7 @@ About r-polycub-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-polycub-feedstock/blob/main/LICENSE.txt)
 
+
 About r-polycub
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/bastistician/polyCub
 Package license: GPL-2.0-only
 
 Summary: Numerical integration of continuously differentiable functions f(x,y) over simple closed polygonal domains. The following cubature methods are implemented: product Gauss cubature (Sommariva and Vianello, 2007, <doi:10.1007/s10543-007-0131-2>), the simple two-dimensional midpoint rule (wrapping 'spatstat' functions), adaptive cubature for radially symmetric functions via line integrate() along the polygon boundary (Meyer and Held, 2014, <doi:10.1214/14-AOAS743>, Supplement B), and integration of the bivariate Gaussian density based on polygon triangulation. For simple integration along the axes, the 'cubature' package is more appropriate.
+
 About r-polycub
 ---------------
 
