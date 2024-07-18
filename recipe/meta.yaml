@@ -1,6 +1,5 @@
 {% set version = "0.9.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-polycub
@@ -13,8 +12,7 @@ source:
   sha256: 077faf5c6cb878cd1f3c03da41a4357f43be9fbc93f844de1afede1e41731192
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -35,7 +33,6 @@ requirements:
     - r-sp >=1.0_11
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-sp >=1.0_11
 
 test:
