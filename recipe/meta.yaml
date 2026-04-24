@@ -1,4 +1,4 @@
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polyCub_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polyCub/polyCub_{{ version }}.tar.gz
-  sha256: 7e4f3f51285d2297e5c2fea1e9575db96064423b31316e5d41c1125c8ba7a9a0
+  sha256: 141c72027dbfc3b3c653f1c2efc5b234831fad9dd3139587f457b8337f89f42c
 
 build:
   number: 0
